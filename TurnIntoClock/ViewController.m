@@ -41,6 +41,11 @@
     [self startClock];
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [self switchStyleButtonAction:nil];
+}
+
 - (void)startClock
 {
     [self updateTimeAndDate];
