@@ -1,0 +1,36 @@
+PODS:
+  - JHFloatView (0.0.1)
+  - JHGuideController (0.0.1)
+  - Masonry (1.1.0)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - JHFloatView (from `https://github.com/JC-Hu/JHFloatView.git`)
+  - JHGuideController
+  - Masonry
+  - YYText
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JHGuideController
+    - Masonry
+    - YYText
+
+EXTERNAL SOURCES:
+  JHFloatView:
+    :git: https://github.com/JC-Hu/JHFloatView.git
+
+CHECKOUT OPTIONS:
+  JHFloatView:
+    :commit: f5817e1791110483f5b85177c22cd834f971a62e
+    :git: https://github.com/JC-Hu/JHFloatView.git
+
+SPEC CHECKSUMS:
+  JHFloatView: dbff9544b6481dce13a0a09ffc0d7cfc11b30368
+  JHGuideController: 58bf9a66b3b30be9dcf92a788412c034ca657bd6
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 5256020556b7802d2de3a710bae426e6da12adba
+
+COCOAPODS: 1.5.3

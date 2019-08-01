@@ -1,0 +1,91 @@
+{
+  "name": "JHGarage",
+  "version": "0.0.2",
+  "summary": "Personal Usage.",
+  "homepage": "https://github.com/JC-Hu/JHGarage",
+  "license": "MIT",
+  "authors": {
+    "JC-Hu": "jchu_dlcn@icloud.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/JC-Hu/JHGarage.git",
+    "tag": "0.0.2"
+  },
+  "frameworks": [
+    "Foundation",
+    "UIKit"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+    "JRSwizzle": [
+
+    ],
+    "BlocksKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "YYCache": [
+
+    ],
+    "YYImage": [
+
+    ],
+    "YYWebImage": [
+
+    ],
+    "YYText": [
+
+    ],
+    "YYDispatchQueuePool": [
+
+    ],
+    "YYAsyncLayer": [
+
+    ],
+    "AFNetworking": [
+      "~> 3.2.1"
+    ],
+    "SDWebImage": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "Toast": [
+      "~> 4.0.0"
+    ],
+    "JHCellConfig": [
+      "~> 2.1.0"
+    ],
+    "IQKeyboardManager": [
+
+    ],
+    "NJKWebViewProgress": [
+
+    ],
+    "SIAlertView": [
+
+    ],
+    "WZLBadge": [
+
+    ],
+    "ActionSheetPicker-3.0": [
+
+    ],
+    "INTULocationManager": [
+      "~> 4.3.2"
+    ]
+  },
+  "source_files": "src/**/*.{h,m,c,mm}"
+}

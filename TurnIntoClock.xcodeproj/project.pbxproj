@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85DC4CDA22E1ABC600DBA83D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DC4CD922E1ABC600DBA83D /* AppDelegate.m */; };
+		85DC4CDD22E1ABC600DBA83D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DC4CDC22E1ABC600DBA83D /* ViewController.m */; };
+		85DC4CE022E1ABC600DBA83D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DC4CDE22E1ABC600DBA83D /* Main.storyboard */; };
+		85DC4CE222E1ABC700DBA83D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85DC4CE122E1ABC700DBA83D /* Assets.xcassets */; };
+		85DC4CE522E1ABC700DBA83D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DC4CE322E1ABC700DBA83D /* LaunchScreen.storyboard */; };
+		85DC4CE822E1ABC700DBA83D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DC4CE722E1ABC700DBA83D /* main.m */; };
+		85DC4CF422E1B0E200DBA83D /* JHBaseUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DC4CF322E1B0E200DBA83D /* JHBaseUserDefaults.m */; };
+		85DC4CF822E1B1B500DBA83D /* TICUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DC4CF722E1B1B500DBA83D /* TICUserDefaults.m */; };
+		D111A562DADE09F09B310E69 /* libPods-TurnIntoClock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A973FE49932F072AADE8B3 /* libPods-TurnIntoClock.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		362F9EDFB531D803D3FA8916 /* Pods-TurnIntoClock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurnIntoClock.release.xcconfig"; path = "Pods/Target Support Files/Pods-TurnIntoClock/Pods-TurnIntoClock.release.xcconfig"; sourceTree = "<group>"; };
+		4F6C8897CCEE9DEAABCF3C7B /* Pods-TurnIntoClock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurnIntoClock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TurnIntoClock/Pods-TurnIntoClock.debug.xcconfig"; sourceTree = "<group>"; };
+		85DC4CD522E1ABC500DBA83D /* TurnIntoClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurnIntoClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85DC4CD822E1ABC500DBA83D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85DC4CD922E1ABC600DBA83D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85DC4CDB22E1ABC600DBA83D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		85DC4CDC22E1ABC600DBA83D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		85DC4CDF22E1ABC600DBA83D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85DC4CE122E1ABC700DBA83D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85DC4CE422E1ABC700DBA83D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85DC4CE622E1ABC700DBA83D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85DC4CE722E1ABC700DBA83D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85DC4CF222E1B0E200DBA83D /* JHBaseUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHBaseUserDefaults.h; sourceTree = "<group>"; };
+		85DC4CF322E1B0E200DBA83D /* JHBaseUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHBaseUserDefaults.m; sourceTree = "<group>"; };
+		85DC4CF622E1B1B500DBA83D /* TICUserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TICUserDefaults.h; sourceTree = "<group>"; };
+		85DC4CF722E1B1B500DBA83D /* TICUserDefaults.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TICUserDefaults.m; sourceTree = "<group>"; };
+		C3A973FE49932F072AADE8B3 /* libPods-TurnIntoClock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TurnIntoClock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85DC4CD222E1ABC500DBA83D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D111A562DADE09F09B310E69 /* libPods-TurnIntoClock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47D600895C31999382DB7605 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F6C8897CCEE9DEAABCF3C7B /* Pods-TurnIntoClock.debug.xcconfig */,
+				362F9EDFB531D803D3FA8916 /* Pods-TurnIntoClock.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85DC4CCC22E1ABC500DBA83D = {
+			isa = PBXGroup;
+			children = (
+				85DC4CD722E1ABC500DBA83D /* TurnIntoClock */,
+				85DC4CD622E1ABC500DBA83D /* Products */,
+				47D600895C31999382DB7605 /* Pods */,
+				EDC5CD7151EDD750EC8A9ABC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		85DC4CD622E1ABC500DBA83D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85DC4CD522E1ABC500DBA83D /* TurnIntoClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85DC4CD722E1ABC500DBA83D /* TurnIntoClock */ = {
+			isa = PBXGroup;
+			children = (
+				85DC4CF122E1B0E200DBA83D /* Vendor */,
+				85DC4CF522E1B10B00DBA83D /* Other */,
+				85DC4CDB22E1ABC600DBA83D /* ViewController.h */,
+				85DC4CDC22E1ABC600DBA83D /* ViewController.m */,
+				85DC4CF622E1B1B500DBA83D /* TICUserDefaults.h */,
+				85DC4CF722E1B1B500DBA83D /* TICUserDefaults.m */,
+				85DC4CDE22E1ABC600DBA83D /* Main.storyboard */,
+			);
+			path = TurnIntoClock;
+			sourceTree = "<group>";
+		};
+		85DC4CF122E1B0E200DBA83D /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				85DC4CF222E1B0E200DBA83D /* JHBaseUserDefaults.h */,
+				85DC4CF322E1B0E200DBA83D /* JHBaseUserDefaults.m */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		85DC4CF522E1B10B00DBA83D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				85DC4CD822E1ABC500DBA83D /* AppDelegate.h */,
+				85DC4CD922E1ABC600DBA83D /* AppDelegate.m */,
+				85DC4CE122E1ABC700DBA83D /* Assets.xcassets */,
+				85DC4CE322E1ABC700DBA83D /* LaunchScreen.storyboard */,
+				85DC4CE622E1ABC700DBA83D /* Info.plist */,
+				85DC4CE722E1ABC700DBA83D /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		EDC5CD7151EDD750EC8A9ABC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3A973FE49932F072AADE8B3 /* libPods-TurnIntoClock.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85DC4CD422E1ABC500DBA83D /* TurnIntoClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85DC4CEB22E1ABC700DBA83D /* Build configuration list for PBXNativeTarget "TurnIntoClock" */;
+			buildPhases = (
+				6584A8260B9AC15A956AC1CF /* [CP] Check Pods Manifest.lock */,
+				85DC4CD122E1ABC500DBA83D /* Sources */,
+				85DC4CD222E1ABC500DBA83D /* Frameworks */,
+				85DC4CD322E1ABC500DBA83D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TurnIntoClock;
+			productName = TurnIntoClock;
+			productReference = 85DC4CD522E1ABC500DBA83D /* TurnIntoClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85DC4CCD22E1ABC500DBA83D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Jason Hu";
+				TargetAttributes = {
+					85DC4CD422E1ABC500DBA83D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 85DC4CD022E1ABC500DBA83D /* Build configuration list for PBXProject "TurnIntoClock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85DC4CCC22E1ABC500DBA83D;
+			productRefGroup = 85DC4CD622E1ABC500DBA83D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85DC4CD422E1ABC500DBA83D /* TurnIntoClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85DC4CD322E1ABC500DBA83D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DC4CE522E1ABC700DBA83D /* LaunchScreen.storyboard in Resources */,
+				85DC4CE222E1ABC700DBA83D /* Assets.xcassets in Resources */,
+				85DC4CE022E1ABC600DBA83D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6584A8260B9AC15A956AC1CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TurnIntoClock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85DC4CD122E1ABC500DBA83D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DC4CDD22E1ABC600DBA83D /* ViewController.m in Sources */,
+				85DC4CE822E1ABC700DBA83D /* main.m in Sources */,
+				85DC4CF822E1B1B500DBA83D /* TICUserDefaults.m in Sources */,
+				85DC4CDA22E1ABC600DBA83D /* AppDelegate.m in Sources */,
+				85DC4CF422E1B0E200DBA83D /* JHBaseUserDefaults.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85DC4CDE22E1ABC600DBA83D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85DC4CDF22E1ABC600DBA83D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85DC4CE322E1ABC700DBA83D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85DC4CE422E1ABC700DBA83D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85DC4CE922E1ABC700DBA83D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		85DC4CEA22E1ABC700DBA83D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85DC4CEC22E1ABC700DBA83D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F6C8897CCEE9DEAABCF3C7B /* Pods-TurnIntoClock.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GLG6FGTY6V;
+				INFOPLIST_FILE = TurnIntoClock/Other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jchu.TurnIntoClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		85DC4CED22E1ABC700DBA83D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 362F9EDFB531D803D3FA8916 /* Pods-TurnIntoClock.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GLG6FGTY6V;
+				INFOPLIST_FILE = TurnIntoClock/Other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jchu.TurnIntoClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85DC4CD022E1ABC500DBA83D /* Build configuration list for PBXProject "TurnIntoClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85DC4CE922E1ABC700DBA83D /* Debug */,
+				85DC4CEA22E1ABC700DBA83D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85DC4CEB22E1ABC700DBA83D /* Build configuration list for PBXNativeTarget "TurnIntoClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85DC4CEC22E1ABC700DBA83D /* Debug */,
+				85DC4CED22E1ABC700DBA83D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85DC4CCD22E1ABC500DBA83D /* Project object */;
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="diK-97-TZn"/>
+                        <viewControllerLayoutGuide type="bottom" id="gY7-J4-eKa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="753" text="23:55" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="CKu-Vg-Qfu">
+                                <rect key="frame" x="68" y="0.0" width="760" height="260"/>
+                                <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="500"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="12月20日 周一" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="40" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="no4-1A-UCC">
+                                <rect key="frame" x="207" y="260" width="621" height="133"/>
+                                <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="95"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eZv-Oi-5DA">
+                                <rect key="frame" x="64" y="343" width="40" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="C5s-ah-nBD"/>
+                                    <constraint firstAttribute="height" constant="50" id="nwn-Om-cMw"/>
+                                </constraints>
+                                <state key="normal" title="JJ"/>
+                                <connections>
+                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="voP-3X-RF9"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="qLU-Xq-gRA">
+                                <rect key="frame" x="62" y="303" width="124" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="rgk-Wg-OCr"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="sizeSliderAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="Uef-dR-wuI"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="no4-1A-UCC" firstAttribute="top" secondItem="CKu-Vg-Qfu" secondAttribute="bottom" id="35U-CF-0sv"/>
+                            <constraint firstItem="CKu-Vg-Qfu" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="5Mf-u7-PCm"/>
+                            <constraint firstItem="gY7-J4-eKa" firstAttribute="top" secondItem="no4-1A-UCC" secondAttribute="bottom" id="9lg-yg-vPP"/>
+                            <constraint firstItem="eZv-Oi-5DA" firstAttribute="top" secondItem="qLU-Xq-gRA" secondAttribute="bottom" constant="10" id="AvS-eC-6vC"/>
+                            <constraint firstItem="no4-1A-UCC" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="EFa-yh-k4y"/>
+                            <constraint firstItem="qLU-Xq-gRA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="JFb-pk-P2i"/>
+                            <constraint firstItem="no4-1A-UCC" firstAttribute="trailing" secondItem="CKu-Vg-Qfu" secondAttribute="trailing" id="Kmz-Ez-bWs"/>
+                            <constraint firstItem="CKu-Vg-Qfu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Kw5-Jp-QWj"/>
+                            <constraint firstItem="gY7-J4-eKa" firstAttribute="top" secondItem="eZv-Oi-5DA" secondAttribute="bottom" id="Vju-E6-WYV"/>
+                            <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="CKu-Vg-Qfu" secondAttribute="bottom" id="ceP-b4-kID"/>
+                            <constraint firstItem="eZv-Oi-5DA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="f2B-Sc-hah"/>
+                            <constraint firstItem="CKu-Vg-Qfu" firstAttribute="top" relation="greaterThanOrEqual" secondItem="diK-97-TZn" secondAttribute="bottom" id="izI-s9-xGc"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="CKu-Vg-Qfu" secondAttribute="trailing" constant="4" id="j87-Yt-qth"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dateLabel" destination="no4-1A-UCC" id="qj5-hD-SCx"/>
+                        <outlet property="timeLabel" destination="CKu-Vg-Qfu" id="sL3-bV-a3C"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48.214285714285715" y="18.840579710144929"/>
+        </scene>
+    </scenes>
+</document>
